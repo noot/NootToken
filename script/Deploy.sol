@@ -11,7 +11,7 @@ contract NootTokenScript is Script {
 
         NootToken nt = new NootToken();
 
-        // uncomment to enable free minting
+        // comment out to disable free minting
         nt.setMintEnabled(true);
 
         vm.stopBroadcast();
